@@ -8,8 +8,8 @@ export default function Home() {
 
     <div>
 
-      <main className="bg-white h-screen flex flex-col items-center">
-        <head className="flex flex-col items-center justify-center py-48">
+      <main className="bg-white h-screen flex flex-col items-center pt-20 px-5">
+        <head className="flex flex-col items-center justify-center py-38">
           <Image src="/image/Xelmar Logo.png" width={100} height={100} alt="Xelmar Logo"/>
           <div>
             <div className="font-conthrax text-center text-[2.5rem] md:text-7xl leading-[3.7rem] md:leading-[5.3rem] pt-16 pb-6">

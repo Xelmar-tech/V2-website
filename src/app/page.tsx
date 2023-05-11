@@ -89,7 +89,7 @@ export default function Home() {
                 <div className="flex flex-col text-black">
                   <p className="font-syne font-bold text-xl">Nathaniel Luz</p>
                   <p className="font=syne font-medium text-sm">CEO at Flincap</p>
-              </div>
+                </div>
             </div>
           </div>
         </div>

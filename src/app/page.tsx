@@ -9,7 +9,7 @@ export default function Home() {
     <div>
 
       <main className="bg-white h-screen flex flex-col items-center">
-        <head className="h-screen flex flex-col items-center justify-center py-52">
+        <head className="flex flex-col items-center justify-center py-48">
           <Image src="/image/Xelmar Logo.png" width={100} height={100} alt="Xelmar Logo"/>
           <div>
             <div className="font-conthrax text-center text-[2.5rem] md:text-7xl leading-[3.7rem] md:leading-[5.3rem] pt-16 pb-6">
@@ -20,7 +20,7 @@ export default function Home() {
             <p className="font-work text-center text-[#B5B4B4] pb-8 text-lg">LET US SIMPLIFY FOR BETTER CONVERSION AND USER EXPERIENCE.</p>
           </div>
           <a href="https://calendly.com/israelrex/xelmar-client" target="blank">
-            <button className="font-syne bg-black text-white font-bold py-5 px-12 font-syne text-center hover:bg-gradient-to-r hover:from-[#FAEF41] hover:to-[#2AD3D4]">
+            <button className="font-syne bg-black text-white font-bold py-5 px-12 text-center hover:bg-gradient-to-r hover:from-[#FAEF41] hover:to-[#2AD3D4]">
               SCHEDULE A CALL
             </button>
           </a>
@@ -53,9 +53,9 @@ export default function Home() {
           <a>
             <div className="overflow-hidden rounded-2xl">
                 
-              <Image alt='img' src="/image/image_02.png" width={555} height={557} className=" h-auto max-w-full hover:scale-125 transition-all duration-500 cursor-pointer"/>
+              {/* <Image alt='img' src="/image/image_02.png" width={555} height={557} className=" h-auto max-w-full hover:scale-125 transition-all duration-500 cursor-pointer"/>
                   
-              <Image alt='img' src="/image/image_01.png" width={555} height={557} className=" h-auto max-w-full hover:scale-125 transition-all duration-500 cursor-pointer"/>
+              <Image alt='img' src="/image/image_01.png" width={555} height={557} className=" h-auto max-w-full hover:scale-125 transition-all duration-500 cursor-pointer"/> */}
                     
               <Image alt='img' src="/image/image_03.png" width={555} height={557} className=" h-auto max-w-full hover:scale-125 transition-all duration-500 cursor-pointer"/>
                 
@@ -81,14 +81,17 @@ export default function Home() {
           </div>
           <div className="max-w-md flex flex-col gap-7">
             <h3 className="font-syne text-[#D4D4D4] text-3xl font-medium leading-[3.06rem]">
-                      Working with Rex was a great experience. He's a Product Designer that goes overboard to understand the vision and
-                      translates it into mind-blowing designs.
+                  IsraelRex did an exceptional job designing the Bankless Loans Frontend for Liquity Protocol.
+                  I was impressed with his ability to seamlessly integrate our instructions with his own innovative
+                  ideas and improvements. IsraelRex demonstrated a keen sense of aesthetics and a contemporary design
+                  style that is sure to resonate with users. I appreciated his timely delivery. Overall, I highly
+                  recommend IsraelRex for any design project.
             </h3>
             <div className="flex items-center gap-4">
-              <Image src="/image/Nathaniel Luz.png" width={57} height={57} alt="Nathaniel Luz"/>
+              <Image src="/image/katarina.png" width={57} height={57} alt="Katarina"/>
                 <div className="flex flex-col text-black">
-                  <p className="font-syne font-bold text-xl">Nathaniel Luz</p>
-                  <p className="font=syne font-medium text-sm">CEO at Flincap</p>
+                  <p className="font-syne font-bold text-xl">Katarina</p>
+                  <p className="font=syne font-medium text-sm">Project Coordinator at BanklessLoans</p>
                 </div>
             </div>
           </div>

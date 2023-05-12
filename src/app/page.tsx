@@ -63,8 +63,8 @@ export default function Home() {
 
         <hr className="max-w-6xl w-full"/>
 
-        <div className="py-16 max-w-5xl w-full justify-between flex md:flex-row flex-col gap-12">
-          <div className="max-w-md flex flex-col gap-7">
+        <div className="py-16 max-w-6xl w-full justify-between flex md:flex-row flex-col gap-12">
+          <div className="max-w-lg flex flex-col gap-7">
                   <h3 className="font-syne text-[#D4D4D4] text-3xl font-medium leading-[3.06rem]">
                       Working with Rex was a great experience. He's a Product Designer that goes overboard to understand the vision and
                       translates it into mind-blowing designs.
@@ -77,7 +77,7 @@ export default function Home() {
                       </div>
                   </div>
           </div>
-          <div className="max-w-md flex flex-col gap-7">
+          <div className="max-w-lg flex flex-col gap-7">
             <h3 className="font-syne text-[#D4D4D4] text-3xl font-medium leading-[3.06rem]">
                   IsraelRex did an exceptional job designing the Bankless Loans Frontend for Liquity Protocol.
                   I was impressed with his ability to seamlessly integrate our instructions with his own innovative
@@ -102,7 +102,7 @@ export default function Home() {
               <div className="flex flex-col gap-3.5 justify-start">
                   <h3 className="font-syne text-base font-bold text-[#B6B3B3]">PREPARE FOR A QUICK RESPONSE</h3>
                   <a href="mailto:israel06.rex@gmail.com">
-                    <button className="bg-black text-white font-bold py-6 md:px-36 px-28 text-xl font-syne text-center">
+                    <button className="bg-black text-white font-bold py-6 md:px-36 px-28 text-xl font-syne text-center w-full">
                       Email Israel Rex
                     </button>
                   </a>

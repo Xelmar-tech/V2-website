@@ -7,7 +7,7 @@ export default function Home() {
   return (
 
       <main className="bg-white flex flex-col items-center px-5">
-        <head className="flex flex-col items-center justify-center py-48">
+        <head className="flex flex-col items-center justify-center md:py-48 py-24">
           <Image src="/image/Xelmar Logo.png" width={100} height={100} alt="Xelmar Logo"/>
           <div>
             <div className="font-conthrax text-center text-[2.5rem] md:text-7xl leading-[3.7rem] md:leading-[5.3rem] pt-16 pb-6">
@@ -102,7 +102,7 @@ export default function Home() {
               <div className="flex flex-col gap-3.5 justify-start">
                   <h3 className="font-syne text-base font-bold text-[#B6B3B3]">PREPARE FOR A QUICK RESPONSE</h3>
                   <a href="mailto:israel06.rex@gmail.com">
-                    <button className="bg-black text-white font-bold py-6 px-40 text-xl font-syne text-center">
+                    <button className="bg-black text-white font-bold py-6 md:px-36 px-28 text-xl font-syne text-center">
                       Email Israel Rex
                     </button>
                   </a>

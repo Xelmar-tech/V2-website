@@ -24,6 +24,7 @@ const conthrax = localFont({
 export const metadata = {
   title: "Xelmar: Top Web3 Product Studio",
   description: "Web3 Product Studio",
+  image: "https://i.postimg.cc/8cMH8QHV/Xelmar-Previe-Link.png",
 };
 
 

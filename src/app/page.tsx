@@ -29,7 +29,7 @@ export default function Home() {
         <div className="max-w-6xl w-full space-y-12 py-20">
             <p className="font-work text-center text-[#B5B4B4] text-lg leading-7">AS A TEAM, WE COLLABORATE WITH LEADING WEB3 PROJECTS AND DAOS TO <span className="text-black">STRATEGIZE (UX)</span> AND <span className="text-black">DESIGN (UI)</span> <br/>
                 FOR INNOVATIVE PRODUCTS THAT ARE <span className="text-black">INTUITIVE, ENGAGING</span> AND <span className="text-black">FAMILIAR.</span></p>
-            <div className="grid md:grid-cols-4 grid-cols-2 gap-8 justify-between">
+            <div className="grid md:grid-cols-4 grid-cols-2 gap-8 place-items-center justify-between">
                 <Image src="/image/Bankless Loans.png" width={238.5} height={40} alt="Bankless Loans"/>
                 <Image src="/image/White Hat DAO.png" width={226} height={40} alt="White Hat DAO"/>
                 <Image src="/image/Vitareels.png" width={151.56} height={40} alt="Vitareels"/>

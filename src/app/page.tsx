@@ -119,9 +119,11 @@ export default function Home() {
                   WE HELP STARTUPS, BUSINESSES AND ORGANIZATIONS CREATE SEAMLESS AND USER-FRIENDLY EXPERIENCES THAT LEVERAGE THE POWER OF BLOCKCHAIN AND OTHER DECENTRALIZED TECHNOLOGIES.
               </p>
               <div className="max-w-6xl w-full font-syne bg-[#2AD3D5] cursor-pointer">
+                <a href="https://calendly.com/israelrex/xelmar-client" target="blank">
                   <h3 className="text-white text-center py-16 font-bold text-4xl leading-[3.75rem] hover:bg-gradient-to-r hover:from-[#FAEF41] hover:to-[#2AD3D4]">
                       Work with us
                   </h3>
+                </a>
               </div>
               <div className="flex justify-between font-work text-base font-normal pt-5 text-black">
                   © 2023 XELMAR

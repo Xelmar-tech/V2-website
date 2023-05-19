@@ -24,7 +24,6 @@ const conthrax = localFont({
 export const metadata = {
   title: "Xelmar: Top Web3 Product Studio",
   description: "Web3 Product Studio",
-  image: "https://i.postimg.cc/8cMH8QHV/Xelmar-Previe-Link.png",
 };
 
 
@@ -33,6 +32,7 @@ export const metadata = {
 export default function RootLayout({ children }: any) {
   return (
     <html lang="en" className={`${conthrax.variable} ${syne.variable} ${work.variable}`}>
+      <meta property="og:image" content="https://i.postimg.cc/8cMH8QHV/Xelmar-Previe-Link.png"/>
       <body>{children}</body>
     </html>
   );

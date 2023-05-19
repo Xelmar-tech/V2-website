@@ -32,6 +32,9 @@ export const metadata = {
 export default function RootLayout({ children }: any) {
   return (
     <html lang="en" className={`${conthrax.variable} ${syne.variable} ${work.variable}`}>
+      <meta property="og:title" content="Xelmar: Top Web3 Product Studio" />
+      <meta property="og:description" content="A product studio that specializes in building user interfaces (UI)
+      for decentralized applications (dApps) and other web3 technologies."/>
       <meta property="og:image" content="https://i.postimg.cc/8cMH8QHV/Xelmar-Previe-Link.png"/>
       <body>{children}</body>
     </html>

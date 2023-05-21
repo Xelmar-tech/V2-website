@@ -48,6 +48,7 @@ export default function Home() {
             <h2 className="font-syne text-left">Design Systems</h2>
             <h2 className="font-syne text-left">Usability Test</h2>
           </div>
+          {/* Image sliding Side */}
           <a href="https://dribbble.com/IsraelRex" target="blank">
             <div className="overflow-hidden rounded-2xl">
                 
